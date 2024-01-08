@@ -1,0 +1,30 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side {
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+  padding: 20px;
+}
+
+.right-side {
+  background-color: #7b6ef6; /* Adjust to match your color */
+  border-radius: 0 10px 10px 0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.sign-in-button {
+  background-color: #564fb1; /* Adjust to match your button color */
+  color: white;
+}
+
+/* Add additional styling as needed */

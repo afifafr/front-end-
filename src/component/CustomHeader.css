@@ -1,0 +1,16 @@
+.slideshow-container {
+  max-width: 1000px;
+  height: 400px; /* Example height */
+  position: relative;
+  margin: auto;
+  overflow: hidden; /* To handle larger images */
+}
+
+.mySlides {
+  display: none;
+  height: 100%;
+  background-size: cover; /* Maintain aspect ratio */
+  background-position: center;
+}
+
+/* ... [rest of your CSS] ... */
